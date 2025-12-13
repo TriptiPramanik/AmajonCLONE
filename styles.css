@@ -9,7 +9,7 @@
     }
 }
 .heading-1{
-    animation: slideInLeft 4s ease-in 1s both;
+    animation: slideInLeft 4s ease-in;
     transform: translateX(0);
     color: rgb(56, 28, 36);
     text-align: center;
