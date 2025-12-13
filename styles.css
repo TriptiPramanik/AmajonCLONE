@@ -9,7 +9,7 @@
     }
 }
 .heading-1{
-    animation: slideInLeft 4s ease-in;
+    animation: slideInLeft 2s ease-in;
     transform: translateX(0);
     color: rgb(56, 28, 36);
     text-align: center;
@@ -22,6 +22,7 @@
     border: none;
     border-radius: 19px;
     cursor: pointer;
+    outline-color: transparent;
 
     transition: transform 0.3s, background-color 0.3s,color 0.3s;
 }
@@ -30,5 +31,5 @@
     transform: translateY(-10px);
 }
 body {
-    background-color: rgb(190, 176, 155);
+    background-color: rgb(233, 217, 194);
 }
