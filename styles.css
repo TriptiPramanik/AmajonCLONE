@@ -1,13 +1,19 @@
 h1 {
     color: rgb(52, 6, 20);
 }
-button {
+.btn{
     background-color: rgb(144, 58, 69);
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 19px;
     cursor: pointer;
+
+    transition: transform 0.3s, background-color 0.3s,color 0.3s;
+}
+.btn:hover {
+    background-color: rgb(120, 48, 58);
+    transform: translateY(-10px);
 }
 body {
     background-color: rgb(209, 203, 194);
