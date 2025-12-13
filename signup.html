@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create Amazon Account</title>
+</head>
+<body>
+
+<h2>Create Account</h2>
+
+<form onsubmit="signup(event)">
+  <input type="text" id="name" placeholder="Your name" required><br><br>
+  <input type="email" id="email" placeholder="Email" required><br><br>
+  <input type="password" id="password" placeholder="Password" required><br><br>
+
+  <button type="submit">Create your Amazon account</button>
+</form>
+
+<p>Already have an account?</p>
+<a href="login.html">Sign In</a>
+
+<script>
+  function signup(event) {
+    event.preventDefault();
+
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let password = document.getElementById("password").value;
+
+    localStorage.setItem("registeredName", name);
+    localStorage.setItem("registeredEmail", email);
+    localStorage.setItem("registeredPassword", password);
+
+    alert("Account created successfully ✅");
+    window.location.href = "login.html";
+  }
+</script>
+
+</body>
+</html>
