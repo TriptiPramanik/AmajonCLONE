@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: Arial,sans-serif;
+}
 @keyframes slideInLeft {
     from {
         transform: translateX(-100%);
@@ -15,6 +20,12 @@
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.navbar{
+    width: 60px;
+    height: 60px;
+    background-color: 0f1111;
+    color: white;
+}
 .btn{
     background-color: rgb(144, 58, 69);
     color: white;
@@ -22,8 +33,7 @@
     border: none;
     border-radius: 19px;
     cursor: pointer;
-    outline-color: transparent;
-
+    outline-color: transparent
     transition: transform 0.3s, background-color 0.3s,color 0.3s;
 }
 .btn:hover {
@@ -38,15 +48,18 @@ body {
     width: 50px;
     height: 50px;
     background-color: rgb(219, 54, 12);
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 10px 10px 10px;
-    border-radius: 20px;
+    flex-direction: column;
+   
     cursor: pointer;
-   transition: transform 2s ease 2s;
+   transition: transform 1s ease 0s;
    margin: 1px auto;
-   flex-direction: column;
+   
 }
 .box:hover {
     transform: rotate(360deg) scale(2)  ;
