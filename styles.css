@@ -3,24 +3,6 @@
     border: border-box;
     font-family: Arial,sans-serif;
 }
-@keyframes slideInLeft {
-    from {
-        transform: translateX(-100%);
-        opacity: 0;
-    }
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-@keyframes spin{
-    from {
-        translate:0;
-    }
-    to {
-         translate:-100%;
-    }
-}
 .heading-1{
     animation: slideInLeft 2s ease-in;
     transform: translateX(0);
@@ -28,12 +10,8 @@
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.navbar{
-    width: 60px;
-    height: 60px;
-    background-color: 0f1111;
-    color: white;
-}
+
+
 .btn{
     background-color: rgb(144, 58, 69);
     color: white;
@@ -52,30 +30,16 @@
 body {
     background-color: rgb(233, 217, 194);
 }
-.carousel{
-    margin:100px auto;
-    width: 90%;
-    border: 5px solid red;
-    display: flex;
-    overflow-x: auto;
-}.carousel::-webkit-scrollbar{
-    display: none;
+.nav {
+   background-color: rgb(203, 166, 152);
+   display: flex;
+   justify-content: space-evenly;
 }
-
-.group{
-    display: flex;
-    gap: 1em;
-    justify-content: center;
-    align-items: center;
-    animation:spin 5s infinite  linear;
+a{
+ text-decoration: none;
+ color: rgb(155, 12, 12);
 }
-.card{
-    flex: 0 0 5em
-    height:5em;
-    padding:1em;
-    background: cornflowerblue;
-    font-size: 3rem;
-    border-radius: .2em;
-    text-align: center;
-    align-content: center;
+li{
+    list-style-type: none;
+    
 }
