@@ -1,44 +1,13 @@
-*{
-    margin: 0;
-    border: border-box;
-    font-family: Arial,sans-serif;
-}
-.heading-1{
-    animation: slideInLeft 2s ease-in;
-    transform: translateX(0);
-    color: rgb(56, 28, 36);
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-
-.btn{
-    background-color: rgb(144, 58, 69);
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 19px;
-    cursor: pointer;
-    outline-color: transparent
-    transition: transform 0.3s, background-color 0.3s,color 0.3s;
-}
-.btn:hover {
-    background-color: rgb(120, 48, 58);
-    transform: translateY(-10px);
-    position: end;
-}
-body {
-    background-color: rgb(233, 217, 194);
-}
-.nav {
+.navbar {
    background-color: rgb(203, 166, 152);
    display: flex;
    justify-content: space-evenly;
 }
-a{
+a {
  text-decoration: none;
  color: rgb(155, 12, 12);
 }
+
 li{
     list-style-type: none;
     
