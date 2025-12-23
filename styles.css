@@ -12,3 +12,15 @@ li{
     list-style-type: none;
     
 }
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(162, 181, 239);
+    display: flex;
+    justify-content: center;
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(168, 74, 58);
+}
