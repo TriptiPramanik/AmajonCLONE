@@ -8,6 +8,17 @@
     height: 60px;
     color: white;
 }
+.nav-logo {
+    height: 50px;
+    width: 150px;
+}
+.logo{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://pngimg.com/uploads/amazon/amazon_PNG11.png");
+    background-size: cover;
+    
+}
 .navi {
    background-color: rgb(203, 166, 152);
    display: flex;
