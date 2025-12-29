@@ -5,8 +5,10 @@
 }
 .navbar {
     background-color: #0f1111;
-    height: 74px;
+    height: 73px;
     color: white;
+    display: flex;
+    align-items:center;
 }
 .nav-logo {
     height: 70px;
@@ -24,6 +26,19 @@
 }
 .border:hover{
     border:1.5px solid white;
+}
+/**box2 */
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 20px;
+}
+.add-sec{
+    font-size: 1rem;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
 }
 .navi {
    background-color: rgb(203, 166, 152);
