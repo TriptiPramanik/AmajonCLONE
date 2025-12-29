@@ -40,6 +40,16 @@
     display: flex;
     align-items: center;
 }
+/** box3 */
+.search-bar{
+    width: 500px;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding-left: 10px;
+}
+
 .navi {
    background-color: rgb(203, 166, 152);
    display: flex;
