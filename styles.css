@@ -41,13 +41,19 @@
     align-items: center;
 }
 /** box3 */
-.search-bar{
-    width: 500px;
-    height: 30px;
+.nav-search{
+    display: flex;
+    background-color: rgb(127, 28, 28);
+    width:620px;
+    height: 35px;
+    border-radius: 3px;
+}
+.search-select{
     border: none;
-    outline: none;
-    font-size: 1rem;
-    padding-left: 10px;
+    width: 60px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: #f3f3f3;
 }
 
 .navi {
