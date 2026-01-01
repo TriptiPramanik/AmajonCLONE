@@ -77,7 +77,13 @@
     color: #0f1111;
 }
 /** box4 */
-
+span{
+    font-size: 0.8rem;
+}
+.nav-sec{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
 
 
 .navi {
