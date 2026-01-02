@@ -86,14 +86,32 @@ span{
 .nav-sec{
     font-size: 0.85rem;
     font-weight: 700;
+    cursor: pointer;
 }
 
 /** box 6 */
 .nav-cart i{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    font-size: 35px;
+    height: 30px;
+}
+.nav-cart{
     color: white;
+    font-weight: 700;
+    font-size:  0.85rem;
     cursor: pointer;
+}
+
+/** panel */
+.panel{
+    display: flex;
+    height:40px;
+    background-color: #222f3d;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline-block;
+    align-items: center;
+    padding-left: 10px;
 }
