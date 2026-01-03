@@ -112,6 +112,16 @@ span{
 }
 .panel-ops p{
     display: inline-block;
+    margin-left: 15px;
     align-items: center;
     padding-left: 10px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
 }
