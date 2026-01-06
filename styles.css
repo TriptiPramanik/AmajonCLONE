@@ -125,3 +125,10 @@ span{
     font-weight: 700;
     cursor: pointer;
 }
+.hero-section{
+    height: 400px;
+    width: 100%;
+    background-image: url("hero-image.jpg");
+    background-size: cover;
+    background-position: center;
+}
